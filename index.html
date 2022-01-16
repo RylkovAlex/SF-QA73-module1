@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- если подключаю normalize через ссылку на github, то получаю ошбка из-за MIME type, почему? и как избежать? -->
+    <link
+      rel="stylesheet"
+      href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css"
+    />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300&family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./script.js"></script>
+    <title>Резюме</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="main-info">
+        <div class="photo-container">
+          <img src="./img/rylkovalex.jpg" alt="селфи фото" />
+        </div>
+        <div class="about">
+          <h1>Рыльков Александр Николаевич</h1>
+          <p class="gray">Тестировщик автоматизатор (QA automation engineer)</p>
+          <hr />
+          <br />
+          <section class="location">
+            <h2><b>Местоположение</b></h2>
+            <p>
+              <span class="gray">Проживание:</span> Россия, г.Санкт-Петербург
+            </p>
+            <p><span class="gray">Готовность к релокации:</span> &#10004;</p>
+            <p>
+              <span class="gray">Возможность удалённой работы:</span> &#10004;
+            </p>
+          </section>
+          <br />
+          <section class="age">
+            <h2><b>Возраст и стаж в IT</b></h2>
+            <p class="years"><span class="gray">Возраст: </span></p>
+            <p class="ex-age">
+              <span class="gray">Стаж: </span> более 1 года:
+              <a href="https://github.com/RylkovAlex">GitHub</a>
+            </p>
+          </section>
+          <br />
+          <section class="contacts">
+            <h2><b>Контактная информация</b></h2>
+            <p>
+              <span class="gray">Моб: </span>
+              <a href="tel:7-921-980-5768">7 921 980-57-68</a>;
+              <a href="tel:7-911-953-2639">7 911 953-26-39</a>
+            </p>
+            <p>
+              <span class="gray">Telegram: </span
+              ><a href="https://telegram.me/Rylkovalex">Rylkovalex</a>
+            </p>
+            <p>
+              <span class="gray">Email: </span
+              ><a href="mailto:rylkovalex@gmail.com">rylkovalex@gmail.com</a>
+            </p>
+          </section>
+        </div>
+      </header>
+
+      <main>
+        <section class="skills">
+          <h1>Профессиональные навыки:</h1>
+          <ul>
+            <li>знание методов и методик тестирования</li>
+            <li>опыт тестирования web-приложений (frontend & backend)</li>
+            <li>
+              опыт работы в командной строке linux-подобных операционных систем
+            </li>
+            <li>опыт тестирования мобильных приложений</li>
+            <li>опыт работы тестировщиком в Agile командах</li>
+            <li>опыт написания автотестов</li>
+            <li>знание Python, Bash, XPath, RegExp, Postman, Charles</li>
+            <li>опыт работы с системами контроля версий</li>
+            <li>опыт работы с системами учета багов</li>
+            <li>знание современных frontend технологий</li>
+          </ul>
+        </section>
+        <section class="experience spreadsheet">
+          <h1>Опыт работы:</h1>
+          <ul class="expirience__list">
+            <li>
+              <div class="spreadsheet__date"><p>2018 - 2019</p></div>
+              <div class="spreadsheet__desc">
+                <h2 class="spreadsheet__title">Microsoft</h2>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Должность:</h3>
+                  <p>Junior QA-Engineer</p>
+                </div>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Обязанности и достижения:</h3>
+                  <p>Тестирования web-приложений</p>
+                </div>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Применяемые навыки:</h3>
+                  <p>Agile, Git, Python</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="spreadsheet__date"><p>2019 - 2020</p></div>
+              <div class="spreadsheet__desc">
+                <h2 class="spreadsheet__title">Google</h2>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Должность:</h3>
+                  <p>Middle QA-Engineer</p>
+                </div>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Обязанности и достижения:</h3>
+                  <p>Тестирования высоконагруженных web-приложений</p>
+                </div>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Применяемые навыки:</h3>
+                  <p>Agile, Git, Python, Bash, XPath, RegExp, SQL</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="spreadsheet__date"><p>2020 - 2021</p></div>
+              <div class="spreadsheet__desc">
+                <h2 class="spreadsheet__title">Apple</h2>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Должность:</h3>
+                  <p>Lead QA-Engineer</p>
+                </div>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Обязанности и достижения:</h3>
+                  <p>Тестирования мобильных приложений</p>
+                </div>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Применяемые навыки:</h3>
+                  <p>Java, Python, XML, C++, SQL</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="spreadsheet__date"><p>2021 - наст.</p></div>
+              <div class="spreadsheet__desc">
+                <h2 class="spreadsheet__title">Meta (Facebook)</h2>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Должность:</h3>
+                  <p>QA-Engineer (GOD level)</p>
+                </div>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Обязанности и достижения:</h3>
+                  <p>Тестирование всего и всех подряд</p>
+                </div>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Применяемые навыки:</h3>
+                  <p>Конфиденциальная информация</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="education spreadsheet">
+          <h1>Высшее образование:</h1>
+          <ul class="spreadsheet__list">
+            <li>
+              <div class="spreadsheet__date"><p>2009 - 2014</p></div>
+              <div class="spreadsheet__desc">
+                <h2 class="spreadsheet__title">
+                  Санкт-Петербургский политехнический университет Петра Великого
+                </h2>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Местоположение:</h3>
+                  <p>Россия, Санкт-Петербург</p>
+                </div>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Факультет:</h3>
+                  <p>Инженерно-строительный (ИСФ)</p>
+                </div>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Специализация и достижения:</h3>
+                  <p>Тестирование всего и всех подряд</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="add-education spreadsheet">
+          <h1>Дополнительное образование:</h1>
+          <ul class="spreadsheet__list">
+            <li>
+              <div class="spreadsheet__date"><p>2021 - 2022</p></div>
+              <div class="spreadsheet__desc">
+                <h2 class="spreadsheet__title">Skill Factory</h2>
+                <div class="spreadsheet__textbox">
+                  <h3 class="gray">Специальность:</h3>
+                  <p>Тестировщик-автоматизатор на Python (QAP)</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="about-myself">
+          <div class="about-myself__textblock">
+            <h1>О себе:</h1>
+            <p>
+              В 2018-19 впрвые появился интерес к IT сфере, начал с простых
+              конструкторов сайтов, таких как Tilda, Wix, Nethouse (делал
+              простые pet-проекты для своих нужд). Основная моя работа и сфера
+              деятельности не касалась IT, но время было и был интерес, поэтому
+              потихоньку освоил <b>HTML & CSS</b>, затем и <b>JS</b> c
+              популярными фреймворками (<b>React</b>, немножко Angular). В 2019
+              пару месяцев поработал Frontend-разработчиком, затем оставил сферу
+              и ушёл в бизнес. В какой-то момент стал интересоваться backend
+              частью приложений и потыкал <b>NodeJS</b> - написал парочку
+              pet-проектов.
+            </p>
+            <p>
+              Сейчас продолжаю знакомство со сферой, решил освоить Python, а
+              заодно и новую профессию - QA и автоматизация процессов
+              тестирования.
+            </p>
+            <p>
+              <b>Моя цель:</b> получать новый опыт, удовлетворяя свой интерес. Всегда иметь
+              возможность сменить сферу деятельности и устроиться на удалёнку в
+              IT.
+            </p>
+          </div>
+
+          <div class="about-myself__textblock">
+            <h2>Soft-Skills</h2>
+            <p>
+              Считаю, что помимо навыков в специальности, обладаю следующими
+              социально-психологические навыками:
+            </p>
+
+            <ul>
+              <li>стрессоустойчивость и управление эмоциями;</li>
+              <li>структурное и логическое мышление;</li>
+              <li>поиск и анализ информации;</li>
+              <li>командная работа и коммуникабельность;</li>
+              <li>умение делиться информацией и задовать вопросы;</li>
+            </ul>
+          </div>
+
+          <div class="about-myself__textblock">
+            <h2>Hobby</h2>
+            <ul>
+              <li>JS код</li>
+              <li>предпринимательство и бизнес</li>
+              <li>
+                спорт: скалолазание, каякинг, велосипед, спортивный туризм
+              </li>
+              <li>путешествия и фотография</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>
+          Всё вышенаписанное не является правдой, это просто "заглушка" в
+          качестве ДЗ к модулю №1 на платформе SF. Далее потихоньку буду
+          добавлять настоящую информацию о приобретаемых навыках и т.д. и т.п.
+        </p>
+        <p>Стили и скрипт прикрутил просто для примера - строго не судите :)</p>
+      </footer>
+    </div>
+  </body>
+</html>
